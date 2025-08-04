@@ -8,7 +8,7 @@ public class UsuarioDTO{
     @NotBlank(message = "O nome do usuário é obrigatório.")
     private String nome;
 
-    @Email(message = "O e-mail informado é inválido.")
+    @Email(message = "O e-mail informado é inválido!")
     private String email;
 
     private String telefone;
@@ -23,6 +23,7 @@ public class UsuarioDTO{
     public String getNome(){
         return nome;
     }
+
     public void setNome(String nome){
         this.nome = nome;
     }
@@ -38,6 +39,7 @@ public class UsuarioDTO{
     public String getTelefone(){
         return telefone;
     }
+
     public void setTelefone(String telefone){
         this.telefone = telefone;
     }

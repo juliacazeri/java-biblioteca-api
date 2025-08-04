@@ -19,16 +19,13 @@ public class EmprestimoDTO{
     public Long getId(){
         return id;
     }
-
     public void setId(Long id){
         this.id = id;
     }
 
-
     public Long getIdLivro(){
         return idLivro;
     }
-
     public void setIdLivro(Long idLivro){
         this.idLivro = idLivro;
     }
@@ -36,6 +33,7 @@ public class EmprestimoDTO{
     public Long getIdUsuario(){
         return idUsuario;
     }
+
     public void setIdUsuario(Long idUsuario){
         this.idUsuario = idUsuario;
     }
@@ -59,6 +57,7 @@ public class EmprestimoDTO{
     public LocalDate getDataDevolucaoReal(){
         return dataDevolucaoReal;
     }
+
     public void setDataDevolucaoReal(LocalDate dataDevolucaoReal){
         this.dataDevolucaoReal = dataDevolucaoReal;
     }

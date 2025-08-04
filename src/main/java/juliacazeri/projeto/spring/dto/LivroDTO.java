@@ -11,14 +11,14 @@ public class LivroDTO{
     @NotBlank(message = "O ISBN do livro é obrigatório.")
     private String isbn;
 
-    @NotNull(message = "O ano de publicação do livro é obrigatório.")
+    @NotNull(message = "O no de publicação do livro é obrigatório.")
     @Min(value = 1500, message = "O ano de publicação informado é inválido!")
     private Integer anoPublicacao;
 
     @NotNull(message = "O ID da editora do livro é obrigatório.")
     private Long idEditora;
 
-    @NotNull(message = "O ID do autor do livro é obrigatório.")
+    @NotNull(message = "O ID do autor é obrigatório.")
     private Long idAutor;
 
     @NotNull(message = "A quantidade em estoque do livro é obrigatória.")
@@ -36,7 +36,6 @@ public class LivroDTO{
     public String getTitulo(){
         return titulo;
     }
-
     public void setTitulo(String titulo){
         this.titulo = titulo;
     }
@@ -52,7 +51,6 @@ public class LivroDTO{
     public Integer getAnoPublicacao(){
         return anoPublicacao;
     }
-
     public void setAnoPublicacao(Integer anoPublicacao){
         this.anoPublicacao = anoPublicacao;
     }
@@ -60,7 +58,6 @@ public class LivroDTO{
     public Long getIdEditora(){
         return idEditora;
     }
-
     public void setIdEditora(Long idEditora){
         this.idEditora = idEditora;
     }
@@ -68,7 +65,6 @@ public class LivroDTO{
     public Long getIdAutor(){
         return idAutor;
     }
-
     public void setIdAutor(Long idAutor){
         this.idAutor = idAutor;
     }
@@ -76,7 +72,6 @@ public class LivroDTO{
     public Integer getQuantidadeEstoque(){
         return quantidadeEstoque;
     }
-
     public void setQuantidadeEstoque(Integer quantidadeEstoque){
         this.quantidadeEstoque = quantidadeEstoque;
     }

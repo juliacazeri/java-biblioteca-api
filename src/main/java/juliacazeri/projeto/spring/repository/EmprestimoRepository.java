@@ -8,8 +8,7 @@ import java.time.LocalDate;
 import java.util.List;
 
 @Repository
-public interface EmprestimoRepository extends JpaRepository<Emprestimo, Long> {
+public interface EmprestimoRepository extends JpaRepository<Emprestimo, Long>{
     List<Emprestimo> findByUsuarioIdAndDataDevolucaoRealIsNull(Long usuarioId);
-
     List<Emprestimo> findByDataDevolucaoPrevistaBeforeAndDataDevolucaoRealIsNull(LocalDate data);
 }
