@@ -1,4 +1,4 @@
-# 📚 Biblioteca API REST em Java (sem Lombok)
+# 📚 Biblioteca API REST em Java
 API REST para gerenciamento de uma biblioteca, construída do zero em Java com Spring Boot, sem dependência de Lombok.  Permite gerenciar autores, editoras, livros, usuários e empréstimos com regras de negócio 
 básicas como controle de estoque, devolução e verificação de atrasos.
 
