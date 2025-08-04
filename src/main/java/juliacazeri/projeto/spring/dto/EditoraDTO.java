@@ -10,7 +10,7 @@ import lombok.*;
 public class EditoraDTO{
     private Long id;
 
-    @NotBlank(message = "Nome da editora é obrigatório")
+    @NotBlank(message = "O nome da editora do livro é obrigatório.")
     private String nome;
 
     private String endereco;

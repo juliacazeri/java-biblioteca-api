@@ -10,10 +10,10 @@ import lombok.*;
 public class UsuarioDTO{
     private Long id;
 
-    @NotBlank(message = "Nome do usuário é obrigatório")
+    @NotBlank(message = "O nome do usuário é obrigatório.")
     private String nome;
 
-    @Email(message = "Email inválido")
+    @Email(message = "O e-mail informado é inválido!")
     private String email;
 
     private String telefone;

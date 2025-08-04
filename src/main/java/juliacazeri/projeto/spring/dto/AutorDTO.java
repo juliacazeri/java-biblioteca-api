@@ -12,7 +12,7 @@ import java.time.LocalDate;
 public class AutorDTO{
     private Long id;
 
-    @NotBlank(message = "Nome do autor é obrigatório")
+    @NotBlank(message = "O nome do autor do livro é obrigatório.")
     private String nome;
 
     private String nacionalidade;

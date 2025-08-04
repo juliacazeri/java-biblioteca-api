@@ -9,7 +9,7 @@ import java.time.LocalDate;
 @NoArgsConstructor
 @AllArgsConstructor
 @Builder
-public class EmprestimoDTO {
+public class EmprestimoDTO{
     private Long id;
 
     @NotNull(message = "ID do livro é obrigatório")
