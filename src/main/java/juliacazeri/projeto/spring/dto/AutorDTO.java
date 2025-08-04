@@ -1,14 +1,8 @@
 package juliacazeri.projeto.spring.dto;
 
 import jakarta.validation.constraints.NotBlank;
-import lombok.*;
-
 import java.time.LocalDate;
 
-@Data
-@NoArgsConstructor
-@AllArgsConstructor
-@Builder
 public class AutorDTO{
     private Long id;
 
@@ -18,4 +12,36 @@ public class AutorDTO{
     private String nacionalidade;
 
     private LocalDate dataNascimento;
+
+    public Long getId(){
+        return id;
+    }
+
+    public void setId(Long id){
+        this.id = id;
+    }
+
+    public String getNome(){
+        return nome;
+    }
+
+    public void setNome(String nome){
+        this.nome = nome;
+    }
+
+    public String getNacionalidade(){
+        return nacionalidade;
+    }
+
+    public void setNacionalidade(String nacionalidade){
+        this.nacionalidade = nacionalidade;
+    }
+
+    public LocalDate getDataNascimento(){
+        return dataNascimento;
+    }
+
+    public void setDataNascimento(LocalDate dataNascimento){
+        this.dataNascimento = dataNascimento;
+    }
 }
