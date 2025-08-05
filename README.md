@@ -79,4 +79,4 @@ src/main/java/com/example/todolist/
 2. Abra o projeto no IntelliJ IDEA;  
 3. Compilar e rodar: `mvn clean install` e depois `mvn spring-boot:run`;
 4. Acessar banco H2;
-5.Testar endpoints com Postman/curl.
+5. Testar endpoints com Postman/curl.
