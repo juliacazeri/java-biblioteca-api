@@ -58,18 +58,18 @@ básicas como controle de estoque, devolução e verificação de atrasos.
 ````
 src/main/java/com/example/todolist/
 ├── controller/
-│   └── TaskController.java
+│   └── TarefaController.java
 ├── controller/exception/
 │   └── GlobalExceptionHandler.java
 ├── model/
-│   └── Task.java
+│   └── Tarefa.java
 ├── repository/
-│   └── TaskRepository.java
+│   └── TarefaRepository.java
 ├── service/
-│   └── TaskService.java
+│   └── TarefaService.java
 ├── service/impl/
-│   └── TaskServiceImpl.java
-└── TodoListApplication.java
+│   └── TarefaServiceImpl.java
+└── ApiRestNuvemApplication.java
 ````
 
 ##
