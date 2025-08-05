@@ -56,20 +56,15 @@ básicas como controle de estoque, devolução e verificação de atrasos.
 
 ## 📁 Estrutura do Projeto
 ````
-src/main/java/com/example/todolist/
+biblioteca-api/
+├── pom.xml
+├── BibliotecaApiApplication.java
 ├── controller/
-│   └── TarefaController.java
-├── controller/exception/
-│   └── GlobalExceptionHandler.java
-├── model/
-│   └── Tarefa.java
+├── dto/ 
+├── exception/ 
+├── model/ 
 ├── repository/
-│   └── TarefaRepository.java
-├── service/
-│   └── TarefaService.java
-├── service/impl/
-│   └── TarefaServiceImpl.java
-└── ApiRestNuvemApplication.java
+└── service/impl/
 ````
 
 ##
