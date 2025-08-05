@@ -9,7 +9,7 @@ básicas como controle de estoque, devolução e verificação de atrasos.
 - Spring Boot (Web, Data JPA, Validation);
 - H2 Database (em memória);
 - Maven;
-- Console/Postman/curl para testes da API;
+- Console/Postman/curl para testes da API.
 
 ##
 
