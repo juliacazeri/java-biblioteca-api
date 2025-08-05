@@ -56,15 +56,20 @@ básicas como controle de estoque, devolução e verificação de atrasos.
 
 ## 📁 Estrutura do Projeto
 ````
-biblioteca-api/
-├── pom.xml
-├── BibliotecaApiApplication.java
+src/main/java/com/example/todolist/
 ├── controller/
-├── dto/ 
-├── exception/ 
-├── model/ 
+│   └── TaskController.java
+├── controller/exception/
+│   └── GlobalExceptionHandler.java
+├── model/
+│   └── Task.java
 ├── repository/
-└── service/impl/
+│   └── TaskRepository.java
+├── service/
+│   └── TaskService.java
+├── service/impl/
+│   └── TaskServiceImpl.java
+└── TodoListApplication.java
 ````
 
 ##
